@@ -28,6 +28,8 @@ def main():
     run_test_reset()
 
     # These other methods used to exist or were planned at one point.
+
+
 #     run_test_rotate()
 #     run_test_get_number_of_rotations()
 #     run_test_projection()
@@ -178,6 +180,7 @@ def run_test_init():
         print_failure(message.format('END'))
 
     end_test()
+
 
 def run_test_clone():
     """ Tests the   clone   method of the Line class. """
